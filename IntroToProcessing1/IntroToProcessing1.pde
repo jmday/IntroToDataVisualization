@@ -26,7 +26,7 @@ void setup() {
   background(backgroundColor);
 
   // Get the data...
-  table = loadTable("/Users/jmday/Downloads/wwc_survey.csv", "header");
+  table = loadTable("wwc_survey.csv", "header");
   
   maxDisplayColumns = (width - 2 * borderSpacing) / coffeeWidth;
 }
